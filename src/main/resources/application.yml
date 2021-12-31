@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:6033/app_db
+    username: db_user
+    password: db_user_pass
+
+
+server:
+  error:
+    whitelabel:
+      enabled: false
